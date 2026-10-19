@@ -1,0 +1,26 @@
+# secrets and local config: never commit these
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# node / foundry
+node_modules/
+out/
+cache/
+broadcast/
+
+# data and editor files
+*.sqlite
+*.db
+.DS_Store
+.idea/
+.vscode/
